@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for Ananda's student</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Kanit", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #b3e5fc, #e1f5fe);
+            color: #333;
+        }
+        .thank-you-box {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .thank-you-box h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4c8baf;
+        }
+        .thank-you-box p {
+            font-size: 1.2em;
+        }
+        .floating-icons {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: -1;
+        }
+        .floating-icons img {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            animation: float 4s infinite ease-in-out;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        /* Positions for the floating icons */
+        .icon-heart {
+            top: 10%;
+            right: 25%;
+        }
+        .icon-star {
+            top: 10%;
+            left: 20%;
+        }
+        .icon-heart-2 {
+            bottom: 20%;
+            left: 10%;
+        }
+        .icon-star-2 {
+            bottom: 15%;
+            right: 15%;
+        }
+        .small-text-box {
+            position: absolute;
+            bottom: 10px; /* ตำแหน่งจากด้านล่าง */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.9em;
+            color: #4774cd;
+            background: #f0f4f8;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+            text-align: center;
+        }
+        .icon-star-3 {
+            bottom: 40%;
+            right: 7%;
+        }
+        .icon-star-4 {
+            bottom: 50%;
+            left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-box">
+        <h1> Congratulation !! </h1>
+        <p>ปัจฉิมนิเทศโรงเรียนอนันดาพิทยาคม</p>
+        <p>ขอแสดงความยินดีแก่เหล่านักเรียนมัธยมศึกษาชั้นปีที่ 6</p>
+        <div class="floating-icons">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/aether-genshin-impact-1/sticker_19.png?d4df6f3bc03032761053240b2b3eea15&d=200x200" alt="น้องเท่อ" class="icon-heart">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/kamisato-ayato/sticker_4.png?148ad14d17473b8dff9e8204de2470e7" alt="อายาโตะ" class="icon-star">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/genshin-21/sticker_10.webp?88c4d115b7cf97c3e179690c13fa2018&d=200x200" alt="คินิช" class="icon-heart-2">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/lumine-genshin-impact/sticker_10.png?19c9780f233b18e5673b6308ced33ba6&d=200x200" alt="น้องมีน" class="icon-star-2">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/genshin-5-2/sticker_12.webp?b97eda72be4b529c35273c2b507116dc&d=200x200" alt="พี่เซียว" class="icon-star-3">
+            <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/genshin-21/sticker_13.webp?88c4d115b7cf97c3e179690c13fa2018&d=200x200" alt="อาจ๊าว" class="icon-star-4">
+            <div class="small-text-box">
+                ข้อความจากผปค : ฮายฮาย ยินดีที่ได้รู้จักทุกคนเลยนะคะ .หอมหัวรอบวง 💖
+            </div>
+    </div>
+</body>
+</html>
